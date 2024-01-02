@@ -1,12 +1,11 @@
-
 const express = require('express');
 const mongoose = require('mongoose');
-
+require("dotenv").config()
 const app = express();
 const PORT = process.env.PORT || 3000;
 
 // MongoDB connection setup
-mongoose.connect('mongodb://localhost/note-taking-app', {
+mongoose.connect(process.env.moongose, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
