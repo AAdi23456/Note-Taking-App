@@ -3,6 +3,16 @@ Certainly! Here's the raw README documentation for your Note Taking App:
 ```markdown
 # Note Taking App
 
+## Running Test Cases
+
+To execute all test cases, use the following command:
+
+```bash
+npm test
+```
+
+This command will run the configured test suite and provide feedback on the test results.
+
 This is a simple note-taking application built with Node.js, Express, and MongoDB. It provides RESTful API endpoints for creating, retrieving, updating, and deleting notes. The application includes validation middleware to ensure that notes adhere to specified constraints.
 
 ## Table of Contents
